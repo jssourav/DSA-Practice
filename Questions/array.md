@@ -32,7 +32,7 @@
 - Input: `[]`
   - Output: `Max: None, Min: None` (handle with a message)
 
----
+----
 
 ### 3. Remove Duplicates
 
