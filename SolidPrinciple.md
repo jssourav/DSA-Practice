@@ -170,7 +170,7 @@ Now, the Notification component can be used uniformly for both regular notificat
 ## 4. Interface Segregation Principle (ISP)
 **Definition:** Clients should not be forced to depend on interfaces they do not use. Instead of one large interface, split it into smaller, more specific interfaces.
 
-## Example of ISP Violation
+### Example of ISP Violation
 In this example, the `Profile` component tries to serve both regular users and admin users by handling both regular user data and admin-specific actions. This violates ISP because regular users don't need the admin functionality.
 
 ```javascript
